@@ -16,6 +16,17 @@ public class Survey {
         this.filteredPoints = Integer.parseInt(values[4]);
     }
 
+    @Override
+    public String toString() {
+        return "Survey{" +
+                "surveyId=" + surveyId +
+                ", name='" + name + '\'' +
+                ", expectedCompletes=" + expectedCompletes +
+                ", competitionPoints=" + competitionPoints +
+                ", filteredPoints=" + filteredPoints +
+                '}';
+    }
+
     public int getSurveyId() {
         return surveyId;
     }

@@ -16,6 +16,16 @@ public class Member {
         this.isActive = Boolean.parseBoolean(values[3]);
     }
 
+    @Override
+    public String toString() {
+        return "Member{" +
+                "memberId=" + memberId +
+                ", fullName='" + fullName + '\'' +
+                ", email='" + email + '\'' +
+                ", isActive=" + isActive +
+                '}';
+    }
+
     public int getMemberId() {
         return memberId;
     }

@@ -7,6 +7,16 @@ public class Participator {
     private int status;
     private int length;
 
+    @Override
+    public String toString() {
+        return "Participator{" +
+                "memberId=" + memberId +
+                ", surveyId=" + surveyId +
+                ", status=" + status +
+                ", length=" + length +
+                '}';
+    }
+
     public Participator(String record){
         String[] values = record.split(",");
         this.memberId = Integer.parseInt(values[0]);

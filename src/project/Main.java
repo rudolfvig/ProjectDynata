@@ -8,13 +8,13 @@ public class Main {
     public static void main(String[] args) {
         myScanner sc = new myScanner("OO - 2 - Members.csv", "OO - 2 - Participation.csv",
                 "OO - 2 - Statuses.csv", "OO - 2 - Surveys.csv");
-        //List<String> members = sc.getMembers();
+        List<String> members = sc.getMembers();
         //System.out.println("elso sor a memberbe: " + members.get(0));
         //members.forEach(System.out::println);
+        //List<Member> membersList = ListCreator.createListForMembers(members);
+        //System.out.println(membersList);
     }
 
-    public static Integer addTwoNumber(int a, int b){
-        return a + b;
-    }
+
 }
 
