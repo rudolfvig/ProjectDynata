@@ -92,7 +92,7 @@ public class myScanner {
             this.resources.add(new File(fileName));
             Scanner scanner = new Scanner(resources.get(resourceId));
             while(scanner.hasNext()) {
-                this.members.add(scanner.nextLine());
+                this.?.add(scanner.nextLine());
             }
         }
         catch (FileNotFoundException e) {
